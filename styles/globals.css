@@ -1,3 +1,178 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+  font-family: 'Kunstler Script';
+  src: url('./fonts/KunstlerScript.woff2') format('woff2'),
+      url('./fonts/KunstlerScript.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Comfortaa';
+  src: url('./fonts/Comfortaa-Regular.woff2') format('woff2'),
+      url('./fonts/Comfortaa-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Comfortaa", -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+/*CSS POUR LA NAVBAR*/
+
+.navbar {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    /*position: fixed;*/
+    width: 100%;
+    min-height: 75px;
+    padding: 1rem;
+    background-color: #7b68ee;
+    color: white;
+  }
+  
+  .navbar_links {
+    display: flex;
+  }
+  
+  .navbar_link {
+    padding: 0 0.3rem;
+    color: inherit;
+  }
+  
+  .navbar_burger {
+    width: 40px;
+    height: 40px;
+    background: transparent;
+    border: none;
+    color: inherit;
+    display: none;
+    /*centrage du menu */
+  }
+  
+  @media screen and (max-width:767px) {
+    .navbar_links {
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      position: fixed;
+  
+      right: -100vw;
+      bottom: 0;
+      width: 0;
+      height: 100vh;
+      padding: 2rem;
+      visibility: hidden;
+      background-color: mediumslateblue;
+      transition: all .8s ease-out;
+    }
+  
+    .shownav .navbar_links {
+      width: 100vw;
+      right: 0;
+      visibility: visible;
+      color: white;
+    }
+  
+    .navbar_item::after {
+      content: "";
+      display: block;
+      margin: 0 auto;
+      width: 3vw;
+      height: 1px;
+      background: white;
+    }
+  
+    .navbar_item:last-child::after {
+      display: none;
+    }
+  
+    .navbar_link {
+      display: block;
+      padding: 1.5rem;
+      font-size: 5vw;
+    }
+  
+    .navbar_burger {
+      display: block;
+      position: fixed;
+      top: 1rem;
+      right: 1rem;
+    }
+  
+    .navbar_burger::hover {
+      cursor: pointer;
+    }
+  
+    .burger_bar,
+    .burger_bar::before,
+    .burger_bar::after {
+      display: block;
+      width: 40px;
+      height: 3px;
+      position: relative;
+      border-radius: 3px;
+      background: white;
+      transition: all 0.5s ease-in-out;
+    }
+  
+    .burger_bar::before,
+    .burger_bar::after {
+      content: "";
+      position: absolute;
+      left: 0;
+    }
+  
+    .burger_bar::before {
+      transform: translateY(-12px);
+    }
+  
+    .burger_bar::after {
+      transform: translateY(12px);
+    }
+  
+    .shownav .burger_bar {
+      width: 0;
+      background: transparent;
+    }
+  
+    .shownav .burger_bar::before {
+      transform: rotate(45deg);
+    }
+  
+    .shownav .burger_bar::after {
+      transform: rotate(-45deg);
+    }
+  
+    .navbar_item {
+      transform: translateY(100vh);
+    }
+  
+    .shownav .navbar_item {
+      transform: translateY(0);
+    }
+  
+    .shownav .slideInDown-1 {
+      transition: all 1s ease-out;
+    }
+  
+    .shownav .slideInDown-2 {
+      transition: all 1.1s ease-out;
+    }
+  
+    .shownav .slideInDown-3 {
+      transition: all 1.2s ease-out;
+    }
+  }
