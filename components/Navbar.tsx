@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { useState } from 'react';
+import Link from 'next/link'
 
 function Navbar() {
     const [showLinks, setShowLinks] = useState(false)
@@ -13,16 +14,16 @@ function Navbar() {
             <div className='navbar_logo font-fancy text-4xl'>Ange & Vie</div>
             <ul className='navbar_links'>
                 <li className='navbar_item slideInDown-1'>
-                    <a className='navbar_link' href="/" >Accueil</a>
+                    <Link className='navbar_link' href="/" >Accueil</Link>
                 </li>
                 <li className='navbar_item slideInDown-2'>
-                    <a className='navbar_link' href="/prestations" >Prestations</a>
+                    <Link className='navbar_link' href="/prestations" >Prestations</Link>
                 </li>
                 <li className='navbar_item slideInDown-2'>
-                    <a className='navbar_link' href="/tarifs" >Tarifs</a>
+                    <Link className='navbar_link' href="/tarifs" >Tarifs</Link>
                 </li>
                 <li className='navbar_item slideInDown-3'>
-                    <a className='navbar_link' href="/about" >Qui suis-je ?</a>
+                    <Link className='navbar_link' href="/about" >Qui suis-je ?</Link>
                 </li>
             </ul>
             <button className='navbar_burger' onClick={handleShowLinks}>
