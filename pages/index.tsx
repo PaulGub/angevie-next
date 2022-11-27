@@ -20,6 +20,10 @@ const Home: NextPage = () => {
 
 				<p className=" text-stone-5 pb-2 text-stone-50">Soins holistique</p>
 
+				<p className=" text-stone-5 pb-2 text-stone-50">Prochainement vous pourrez venir à mon cabinet d’Eysines.</p>
+
+				<p className=" text-stone-5 pb-2 text-stone-50">Je me déplace à votre domicile ou travaille à distance.</p>
+
 				<div className="flex">
 					<Image src={phoneLogo} width="20" height="17" alt="image telephone" />
 					<p className=" text-stone-5 text-stone-50 pl-2">07 67 05 57 90</p>
