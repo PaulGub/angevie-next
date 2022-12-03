@@ -11,7 +11,9 @@ function Navbar() {
 
     return (
         <nav className={`navbar ${showLinks ? "shownav" : "hide-nav"}`}>
-            <div className='navbar_logo font-fancy text-4xl'>Ange & Vie</div>
+
+            <Link className='navbar_logo navbar_logo font-fancy text-4xl' href="/" >Ange & Vie</Link>
+
             <ul className='navbar_links'>
                 <li className='navbar_item slideInDown-1'>
                     <Link className='navbar_link' href="/" >Accueil</Link>

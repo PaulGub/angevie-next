@@ -6,20 +6,25 @@ import angelique from '../images/angelique.jpg'
 const Home: NextPage = () => {
 	return (
 		<Layout>
-			<div className="p-12">
-				<div className="flex pb-4">
+			<div className="p-12 pt-32">
+				<div className="grid lg:grid-cols-4 pb-6">
 
-					<div className="basis-1/4 p-4">
-						<Image className="rounded-full" src={angelique} width="1000" height="668" alt="image de personnes" />
+					<div className="grid">
+						<div className=" flex flex-col items-center justify-center">
+							<Image className="rounded-full" src={angelique} width="200" height="200" alt="image de angelique spaziani" />
+						</div>
 					</div>
 
-					<div className="basis-3/4 flex flex-col justify-center p-6">
-						<h1 className="font-fancy text-9xl pb-4">Angélique Spaziani</h1>
-						<p>Les défaites de la vie conduisent aux plus grandes victoires.</p>
+					<div className="grid lg:col-span-3">
+						<div className="flex flex-col justify-center p-6">
+							<h1 className="font-fancy text-9xl pb-4">Angélique Spaziani</h1>
+							<p>Les défaites de la vie conduisent aux plus grandes victoires.</p>
+						</div>
 					</div>
+
 				</div>
 
-				<div className="text-2xl">
+				<div className="text-xl">
 					<p>
 						Ma vie a commencé à Tours dans les années 1970. Mon arrière-grand-mère a commencé à m’enseigner (me transmettre) ses connaissances des plantes et à les respecter.
 					</p>
@@ -54,7 +59,7 @@ const Home: NextPage = () => {
 					</p>
 					<br></br>
 					<p>
-						Depuis j’ai suivi plusieurs stages afin de mieux connaître les plantes, les cristaux et les anges
+						Depuis j’ai suivi plusieurs stages afin de mieux connaître les plantes, les cristaux et les anges.
 					</p>
 				</div>
 

@@ -8,9 +8,14 @@ module.exports = {
         'pur': '#7b68ee',
       },
       fontFamily: {
-        sans: ['Comfortaa', ...defaultTheme.fontFamily.sans],
+        sans: ['Abhaya Libre', ...defaultTheme.fontFamily.sans],
         fancy: ['Kunstler Script'],
       },
+      fontSize: {
+        sm: '3px',
+        base: '3px',
+        xl: '20px',
+      }
     },
   },
   variants: {
