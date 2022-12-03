@@ -25,7 +25,9 @@ const Home: NextPage = () => {
 
 					<p className=" text-stone-5 pb-2 text-stone-50">Prochainement vous pourrez venir à mon cabinet</p>
 
-					<p className=" text-stone-5 pb-2 text-stone-50">Je me déplace à votre domicile ou travaille à distance</p>
+					<p className=" text-stone-5 pb-2 text-stone-50">Je me déplace à votre domicile</p>
+
+					<p className=" text-stone-5 pb-2 text-stone-50">Je peux également travaille à distance</p>
 
 					<div className="flex">
 						<Image src={phoneLogo} width="20" height="17" alt="image telephone" />
