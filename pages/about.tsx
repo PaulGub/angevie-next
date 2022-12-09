@@ -17,8 +17,8 @@ const Home: NextPage = () => {
 
 					<div className="grid lg:col-span-3">
 						<div className="flex flex-col lg:p-6">
-							<h1 className="font-fancy lg:text-9xl text-7xl pb-4">Angélique Spaziani</h1>
-							<p>Les défaites de la vie conduisent aux plus grandes victoires.</p>
+							<h1 className="font-fancy lg:text-9xl text-7xl pb-4 lg:text-left text-center">Angélique Spaziani</h1>
+							<p className="lg:text-left text-center">Les défaites de la vie conduisent aux plus grandes victoires.</p>
 						</div>
 					</div>
 

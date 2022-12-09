@@ -15,19 +15,19 @@ const Home: NextPage = () => {
 		<Layout>
 			<div className="text-xl">
 
-				<div className="bg-cover bg-[url('../images/bg-main.jpg')] h-screen w-full flex flex-col items-center justify-center">
+				<div className="bg-cover bg-[url('../images/bg-main.jpg')] lg:h-screen min-h-fit min-w-fit  flex flex-col items-center justify-center">
 
 					<Image src={logo} width="400" height="400" alt="logo ange & vie" />
 
-					<h1 className=" text-stone-5 pb-2 text-stone-50">Angelique Spaziani</h1>
+					<h1 className=" text-stone-5 pb-2 text-stone-50 text-center">Angelique Spaziani</h1>
 
-					<p className=" text-stone-5 pb-2 text-stone-50">Soins holistique</p>
+					<p className=" text-stone-5 pb-2 text-stone-50 text-center">Soins holistique</p>
 
-					<p className=" text-stone-5 pb-2 text-stone-50">Prochainement vous pourrez venir à mon cabinet</p>
+					<p className=" text-stone-5 pb-2 text-stone-50 text-center">Prochainement vous pourrez venir à mon cabinet</p>
 
-					<p className=" text-stone-5 pb-2 text-stone-50">Je me déplace à votre domicile</p>
+					<p className=" text-stone-5 pb-2 text-stone-50 text-center">Je me déplace à votre domicile</p>
 
-					<p className=" text-stone-5 pb-2 text-stone-50">Je peux également travaille à distance</p>
+					<p className=" text-stone-5 pb-2 text-stone-50 text-center">Je peux également travaille à distance</p>
 
 					<div className="flex">
 						<Image src={phoneLogo} width="20" height="17" alt="image telephone" />
