@@ -21,13 +21,13 @@ const Home: NextPage = () => {
 
 					<h1 className=" text-stone-5 pb-2 text-stone-50 text-center">Angelique Spaziani</h1>
 
-					<p className=" text-stone-5 pb-2 text-stone-50 text-center">Soins holistique</p>
+					<p className=" text-stone-5 pb-2 text-stone-50 text-center">Soins holistiques</p>
 
 					<p className=" text-stone-5 pb-2 text-stone-50 text-center">Prochainement vous pourrez venir à mon cabinet</p>
 
 					<p className=" text-stone-5 pb-2 text-stone-50 text-center">Je me déplace à votre domicile</p>
 
-					<p className=" text-stone-5 pb-2 text-stone-50 text-center">Je peux également travaille à distance</p>
+					<p className=" text-stone-5 pb-2 text-stone-50 text-center">Je peux également travailler à distance</p>
 
 					<div className="flex">
 						<Image src={phoneLogo} width="20" height="17" alt="image telephone" />
