@@ -84,8 +84,9 @@ body {
     width: 100%;
     min-height: 75px;
     padding: 1rem;
-    background-color: #7b68ee;
+    background-color: #D4AC0D;
     color: white;
+    z-index: 99999999999;
   }
   
   .navbar_links {

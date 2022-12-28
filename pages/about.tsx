@@ -24,7 +24,7 @@ const Home: NextPage = () => {
 
 				</div>
 
-				<div className="text-xl">
+				<div className="text-2xl text-justify">
 					<p>
 						Ma vie a commencé à Tours dans les années 1970. Mon arrière-grand-mère a commencé à me transmettre ses connaissances des plantes et à les respecter.
 					</p>
@@ -55,7 +55,11 @@ const Home: NextPage = () => {
 					</p>
 					<br></br>
 					<p>
-						J’ai été portée par la joie lorsque j’ai réussi mon certificat de bio-énergéticienne acmos au printemps 2017. Dès l’été mon activité était créée.
+						J’ai été portée par la joie lorsque j’ai réussi mon certificat de bio-énergéticienne acmos au printemps 2017.
+					</p>
+					<br></br>
+					<p>
+						Dès l’été mon activité était créée.
 					</p>
 					<br></br>
 					<p>

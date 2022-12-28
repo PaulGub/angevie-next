@@ -52,7 +52,7 @@ export default function Footer(props: FooterProps) {
                 <hr></hr>
 
                 <div className="bg-pur py-4 text-stone-50 flex flex-col items-center justify-center">
-                    <p>2022 - Site développé par <span><Link href="https://gubbiotti.fr/" >Paul Gubbiotti </Link></span></p>
+                    <p>2022 - Site développé par <span><Link target="_blank" href="https://gubbiotti.fr/" >Paul Gubbiotti </Link></span></p>
                 </div>
             </div>
         </footer>

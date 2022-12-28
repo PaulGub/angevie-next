@@ -3,19 +3,13 @@ import Layout from "../components/Layout"
 import Image from 'next/image'
 import logo from '../images/logo.svg'
 import phoneLogo from '../images/phoneLogo.png'
-import Lottie from "lottie-react";
-import DayNight from "../images/lotties/day-night.json";
-import Yoga from "../images/lotties/yoga.json";
-import Body from "../images/lotties/scan-body.json";
-import peoples from '../images/peoples.png'
-import antenneDeLecher from '../images/antenne-de-lecher.webp'
 
 const Home: NextPage = () => {
 	return (
 		<Layout>
-			<div className="text-xl">
+			<div className="lg:text-2xl text-xl">
 
-				<div className="bg-cover bg-[url('../images/bg-main.jpg')] h-screen min-h-fit min-w-fit  flex flex-col items-center justify-center">
+				<div className="bg-cover bg-[url('../images/sun.jpg')] h-screen min-h-fit min-w-fit  flex flex-col items-center justify-center">
 
 					<Image src={logo} width="400" height="400" alt="logo ange & vie" />
 
@@ -36,89 +30,68 @@ const Home: NextPage = () => {
 
 				</div>
 
-				<div className="grid lg:grid-cols-5">
+				<div className="px-6 py-10 leading-loose ">
 
-					<div className="grid lg:col-span-4">
-						<div className=" flex flex-col items-center justify-center p-6">
-							<p>A tout moment vous pouvez bénéficier d’un soin énergétique, aux changements de saison, lorsqu’une douleur apparaît ou est chronique, avant ou après une opération, en cas de stress, ou tout simplement quand tout va bien !</p>
-						</div>
-					</div>
+					<h1 className="font-bold text-4xl uppercase text-pur ">Pour quelles raisons venir voir une Energeticienne ?</h1>
 
-					<div className="grid">
-						<div className=" flex flex-col items-center justify-center">
-							<Lottie className="w-[300px] h-[300px]" animationData={DayNight} />
-						</div>
-					</div>
-
+					<p>- En cas de stress, angoisses, anxiété, tristesse, colère, burn out</p>
+					<p>- Avant et/ou après une opération chirurgicale</p>
+					<p>- Fatigue</p>
+					<p>- Maladie chronique</p>
+					<p>- Traitement médical lourd</p>
+					<p>- Douleurs chronique ou soudaine</p>
+					<p>- Maux de tête</p>
+					<p>- Sentiment de mal être, de solitude </p>
+					<p>- Perte ou prise de poids </p>
+					<p>- Addictions </p>
+					<p>- Candidose, remontées gastrique</p>
+					<p>- Fertilité </p>
+					<p>- Changement de saison </p>
+					<p>- Et aussi quand tout va bien ;-) </p>
 				</div>
 
-				<div className="grid lg:grid-cols-5 bg-pur">
+				<div className="px-6 py-10 bg-pur text-stone-50 leading-loose">
 
-					<div className="grid">
-						<div className=" flex flex-col items-center justify-center">
-							<Lottie className="w-[300px] h-[300px]" animationData={Yoga} />
-						</div>
-					</div>
+					<h1 className="font-bold text-4xl uppercase">Les bienfaits le plus souvent ressenti après un soin énergétique : </h1>
 
-					<div className="grid lg:col-span-4">
-						<div className="flex flex-col items-center justify-center p-6">
-							<p className="text-stone-50">Le <b>soin énergétique</b> que je réalise vous permettra de trouver un mieux-être général, tant sur le plan physique, morale que mental. Le bilan rétablira votre équilibre en profondeur. Je suis certifiée <b>bio-énergéticienne acmos</b>.</p>
-						</div>
-					</div>
-
+					<p>- Harmonisation de votre énergie</p>
+					<p>- Stimule vos défenses immunitaires</p>
+					<p>- Meilleur moral, joie de vivre</p>
+					<p>- Diminution de la douleur</p>
+					<p>- Élimination des toxines</p>
+					<p>- Meilleures assimilation de vos traitements</p>
+					<p>- Maintenir sa santé</p>
 				</div>
 
-				<div className="grid lg:grid-cols-5">
+				<div className="px-6 py-10 leading-loose">
 
-					<div className="grid lg:col-span-4">
-						<div className="flex flex-col items-center justify-center p-6">
-							<p>Le <b>rééquilibrage</b> se déroule en plusieurs phases. Tout d’abord j’interroge votre corps afin de faire un constat. Ensuite plusieurs protocoles peuvent être réalisés. Par exemple, en exécutant des <b>transferts quantiques</b> et des points d’<b>acupunctures</b>. En effet la méthode <b>acmos</b> a pour principe de rétablir et de faire circuler d’information.
-								<br></br>
-								J’utilise plus de 300 produits pour les transferts quantiques, par résonance plusieurs d’entre eux sont choisis par votre corps suivant votre degré d’urgence.
-								Je continue avec la <b>chromothérapie</b> afin d’éliminer vos toxines vibratoires.
-								<br></br>
-								Enfin, si nécessaire vous pouvez profiter d’un soin <b>magnétisme</b> ou autres…</p>
-						</div>
-					</div>
+					<h1 className="font-bold text-4xl uppercase text-pur">Déroulé des séances :</h1>
 
-					<div className="grid">
-						<div className="flex flex-col items-center justify-center">
-							<Lottie className="w-[300px] h-[300px]" animationData={Body} />
-						</div>
-					</div>
-
+					<p>- Accueil, écoute et recueil de vos besoins. Lors du premier bilan je vous propose de répondre à un questionnaire afin de faire un point.</p>
+					<p>- Pour commencer, j’interroge votre corps avec l’antenne de Lescher afin de faire votre bilan. </p>
+					<p>- Ensuite plusieurs protocoles peuvent être réalisés pour retrouver votre harmonie. </p>
+					<p>- Par exemple, en exécutant des <b>transferts quantiques</b> et des points d’<b>acupunctures</b>.</p>
+					<p>- En effet la méthode <b>ACMOS</b>  a pour principe de rétablir et de faire circuler l’information.</p>
+					<p>- J’utilise plus de 300 produits pour les transferts quantiques, par résonance plusieurs d’entre eux sont choisis par votre corps suivant votre degré d’urgence.</p>
 				</div>
 
-				<div className="grid lg:grid-cols-5 bg-pur">
+				<div className="px-6 py-10 bg-pur text-stone-50 leading-loose">
 
-					<div className="grid">
-						<div className="p-4 flex flex-col items-center justify-center">
-							<Image src={peoples} width="300" height="150" alt="image de personnes" />
-						</div>
-					</div>
+					<h1 className="font-bold text-4xl uppercase">A qui s’adresse un soin énergétique (Energeticienne) ? </h1>
 
-					<div className="grid lg:col-span-4">
-						<div className="flex flex-col items-center justify-center p-6">
-							<p className=" text-stone-50">Le soin s’adresse de 7 à 99 ans et plus. Pour les bébés et les nourrissons il est recommandé de réaliser le soin à la maman. L’enfant à cet âge est encore dans l’énergie de sa mère. Vos amis les animaux peuvent aussi en bénéficier.</p>
-						</div>
-					</div>
-
+					<p>- Enfant à partir de 7 ans jusqu’à 100 ans et plus. </p>
+					<p>- Les nouveaux nés jusqu’aux enfants de 7 ans sont dans l’énergie de la maman, le bilan se réalise sur la mère. </p>
+					<p>- Exceptionnellement, si blessure il est possible de travailler en direct sur l’enfant. </p>
+					<p>- Nos amis les animaux peuvent aussi bénéficier d’un soin.</p>
 				</div>
 
-				<div className="grid lg:grid-cols-5">
+				<div className="px-6 py-10 leading-loose">
 
-					<div className="grid lg:col-span-4">
-						<div className="flex flex-col justify-center p-6">
-							<p>L’ensemble du bilan est réalisé avec <b>l’antenne de Lescher</b>. Votre corps est utilisé comme une station radio.</p>
-						</div>
-					</div>
+					<h1 className="font-bold text-4xl uppercase text-pur">En résumé :</h1>
 
-					<div className="grid">
-						<div className="p-4 flex flex-col items-center justify-center">
-							<Image src={antenneDeLecher} width="300" height="150" alt="image de antenne de lecher" />
-						</div>
-					</div>
-
+					<p>Le <b>soin énergétique</b> que je réalise vous permettra de trouver un mieux-être général, tant sur le plan physique, moral que mental. </p>
+					<p>Le bilan rétablira votre équilibre en profondeur. </p>
+					<p>Je suis certifiée <b>bio-énergéticienne ACMOS</b> (Analyse de Compatibilité des Matières sur l’Organisme et leur Synergie).</p>
 				</div>
 
 			</div>
