@@ -30,14 +30,13 @@ const Home: NextPage = () => {
 
 					<div className="bg-pur p-4  text-center rounded-lg flex flex-col justify-center">
 						<p className="text-stone-50 text-xl uppercase"> Bon cadeaux</p>
-						<p className="text-stone-50 text-3xl font-bold">25 € - 85€</p>
-						<p className='text-stone-50 italic'>Si vous voulez offrir une expérience à vos proches</p>
+						<p className="text-stone-50 text-3xl font-bold">25 € - 60€ - 85€</p>
+						<p className='text-stone-50 italic'>Pour offrir une expérience à vos proches</p>
 					</div>
 
 					<div className="bg-pur p-4  text-center rounded-lg flex flex-col justify-center">
 						<p className="text-stone-50 text-xl uppercase"> un protocole du bilan au choix (couper le feu, pansement énergétique,…)</p>
 						<p className="text-stone-50 text-3xl font-bold">25 €</p>
-						<p className='text-stone-50 italic'> 3h en moyenne</p>
 					</div>
 
 				</div>
