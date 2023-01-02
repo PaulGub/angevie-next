@@ -19,13 +19,13 @@ const Home: NextPage = () => {
 					<div className="bg-pur p-4  text-center rounded-lg flex flex-col justify-center">
 						<p className="text-stone-50 text-xl uppercase">peinture canalisée 30 x 30 cm ou 41 x 33 cm</p>
 						<p className="text-stone-50 text-3xl font-bold">60 €</p>
-						<p className='text-stone-50 italic'> 2h en moyenne</p>
+						<p className='text-stone-50 italic'>Une semaine de délais</p>
 					</div>
 
 					<div className="bg-pur p-4  text-center rounded-lg flex flex-col justify-center">
 						<p className="text-stone-50 text-xl uppercase"> soin énergétique</p>
 						<p className="text-stone-50 text-3xl font-bold">60 €</p>
-						<p className='text-stone-50 italic'>Une semaine de délais</p>
+						<p className='text-stone-50 italic'>1h en moyenne</p>
 					</div>
 
 					<div className="bg-pur p-4  text-center rounded-lg flex flex-col justify-center">

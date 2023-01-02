@@ -84,7 +84,7 @@ body {
     width: 100%;
     min-height: 75px;
     padding: 1rem;
-    background-color: #d45e31;
+    background-color: #F1C40F;
     color: white;
     z-index: 99999999999;
   }
@@ -120,7 +120,7 @@ body {
       height: 100vh;
       padding: 2rem;
       visibility: hidden;
-      background-color: #d45e31;
+      background-color: #F1C40F;
       transition: all .8s ease-out;
     }
   
