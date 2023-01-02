@@ -6,6 +6,7 @@ module.exports = {
     extend: {
       colors: {
         'pur': '#F1C40F',
+        'stone-50' : '#7b68ee'
       },
       fontFamily: {
         sans: ['Abhaya Libre', ...defaultTheme.fontFamily.sans],
