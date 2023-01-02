@@ -25,7 +25,7 @@ const Home: NextPage = () => {
 					<div className="bg-pur p-4  text-center rounded-lg flex flex-col justify-center">
 						<p className="text-stone-50 text-xl uppercase"> soin énergétique</p>
 						<p className="text-stone-50 text-3xl font-bold">60 €</p>
-						<p className='text-stone-50 italic'>1h à 1h30</p>
+						<p className='text-stone-50 italic'>Une semaine de délais</p>
 					</div>
 
 					<div className="bg-pur p-4  text-center rounded-lg flex flex-col justify-center">
@@ -35,7 +35,8 @@ const Home: NextPage = () => {
 					</div>
 
 					<div className="bg-pur p-4  text-center rounded-lg flex flex-col justify-center">
-						<p className="text-stone-50 text-xl uppercase"> un protocole du bilan au choix (couper le feu, pansement énergétique,…)</p>
+						<p className="text-stone-50 text-xl uppercase"> un protocole du bilan au choix </p>
+						<p className='text-stone-50'>(couper le feu, pansement énergétique,…)</p>
 						<p className="text-stone-50 text-3xl font-bold">25 €</p>
 					</div>
 

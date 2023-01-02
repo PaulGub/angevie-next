@@ -9,7 +9,7 @@ const Home: NextPage = () => {
 		<Layout>
 			<div className="lg:text-2xl text-xl">
 
-				<div className="bg-cover bg-[url('../images/sun.jpg')] h-screen min-h-fit min-w-fit  flex flex-col items-center justify-center">
+				<div className="bg-cover bg-[url('../images/phare.jpg')] h-screen min-h-fit min-w-fit  flex flex-col items-center justify-center">
 
 					<Image src={logo} width="400" height="400" alt="logo ange & vie" />
 
