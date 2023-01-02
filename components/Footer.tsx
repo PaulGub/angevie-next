@@ -37,7 +37,7 @@ export default function Footer(props: FooterProps) {
                             </div>
                             <div className="flex pb-2">
                                 <Image src={phoneLogo} width="20" height="17" alt="image telephone" />
-                                <p className=" text-stone-5 text-stone-50 pl-2">07 67 05 57 90</p>
+                                <p className=" text-stone-5 text-stone-50 pl-2"><Link href="tel:+33767055790">07 67 05 57 90</Link></p>
                             </div>
                             <div className="flex">
                                 <Image src={mapLogo} width="20" height="17" alt="image telephone" />

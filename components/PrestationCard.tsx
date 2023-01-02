@@ -20,7 +20,7 @@ export default function PrestationCard(data: any) {
                             {data.data.type.map((data: any, index: number) => {
 
                                 return (
-                                    <span className= "text-yellow-300" key={index}>
+                                    <span className= "text-stone-50" key={index}>
                                         {data}
                                     </span>
                                 )
