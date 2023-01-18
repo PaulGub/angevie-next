@@ -15,7 +15,7 @@ const Home: NextPage = () => {
 
 					<h1 className=" text-stone-5 pb-2 text-slate-50 text-center">Angelique Spaziani</h1>
 
-					<p className=" text-stone-5 pb-2 text-slate-50 text-center">Soins holistiques</p>
+					<p className=" text-stone-5 pb-2 text-slate-50 text-center">Praticienne holistiques</p>
 
 					<p className=" text-stone-5 pb-2 text-slate-50 text-center">Prochainement vous pourrez venir à mon cabinet</p>
 
@@ -52,7 +52,7 @@ const Home: NextPage = () => {
 
 				<div className="px-6 py-10 bg-pur text-stone-50 leading-loose">
 
-					<h1 className="font-bold text-4xl uppercase">Les bienfaits le plus souvent ressenti après un soin énergétique : </h1>
+					<h1 className="font-bold text-4xl uppercase">Les bienfaits le plus souvent ressenti après un bilan énergétique : </h1>
 
 					<p>- Harmonisation de votre énergie</p>
 					<p>- Stimule vos défenses immunitaires</p>
@@ -77,19 +77,19 @@ const Home: NextPage = () => {
 
 				<div className="px-6 py-10 bg-pur text-stone-50 leading-loose">
 
-					<h1 className="font-bold text-4xl uppercase">A qui s’adresse un soin énergétique (Energeticienne) ? </h1>
+					<h1 className="font-bold text-4xl uppercase">A qui s’adresse un bilan énergétique (Energeticienne) ? </h1>
 
 					<p>- Enfant à partir de 7 ans jusqu’à 100 ans et plus. </p>
 					<p>- Les nouveaux nés jusqu’aux enfants de 7 ans sont dans l’énergie de la maman, le bilan se réalise sur la mère. </p>
 					<p>- Exceptionnellement, si blessure il est possible de travailler en direct sur l’enfant. </p>
-					<p>- Nos amis les animaux peuvent aussi bénéficier d’un soin.</p>
+					<p>- Nos amis les animaux peuvent aussi bénéficier d’un bilan.</p>
 				</div>
 
 				<div className="px-6 py-10 leading-loose text-stone-50">
 
 					<h1 className="font-bold text-4xl uppercase text-pur">En résumé :</h1>
 
-					<p>Le <b>soin énergétique</b> que je réalise vous permettra de trouver un mieux-être général, tant sur le plan physique, moral que mental. </p>
+					<p>Le <b>bilan énergétique</b> que je réalise vous permettra de trouver un mieux-être général, tant sur le plan physique, moral que mental. </p>
 					<p>Le bilan rétablira votre équilibre en profondeur. </p>
 					<p>Je suis certifiée <b>bio-énergéticienne ACMOS</b> (Analyse de Compatibilité des Matières sur l’Organisme et leur Synergie).</p>
 				</div>

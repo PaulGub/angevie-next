@@ -23,7 +23,7 @@ const Home: NextPage = () => {
 					</div>
 
 					<div className="bg-pur p-4  text-center rounded-lg flex flex-col justify-center">
-						<p className="text-stone-50 text-xl uppercase"> soin énergétique</p>
+						<p className="text-stone-50 text-xl uppercase"> bilan énergétique</p>
 						<p className="text-stone-50 text-3xl font-bold">60 €</p>
 						<p className='text-stone-50 italic'>1h en moyenne</p>
 					</div>
