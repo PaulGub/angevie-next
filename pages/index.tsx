@@ -15,7 +15,7 @@ const Home: NextPage = () => {
 
 					<h1 className=" text-stone-5 pb-2 text-slate-50 text-center">Angelique Spaziani</h1>
 
-					<p className=" text-stone-5 pb-2 text-slate-50 text-center">Praticienne holistiques</p>
+					<p className=" text-stone-5 pb-2 text-slate-50 text-center">Praticienne holistique</p>
 
 					<p className=" text-stone-5 pb-2 text-slate-50 text-center">Prochainement vous pourrez venir à mon cabinet</p>
 
