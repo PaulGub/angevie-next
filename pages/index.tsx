@@ -30,7 +30,7 @@ const Home: NextPage = () => {
 
 				</div>
 
-				<div className="px-6 py-10 leading-loose text-stone-50">
+				<div className="px-6 py-10 leading-loose">
 
 					<h1 className="font-bold text-4xl uppercase text-pur ">Pour quelles raisons venir voir une Energeticienne ?</h1>
 
@@ -63,7 +63,7 @@ const Home: NextPage = () => {
 					<p>- Maintenir sa santé</p>
 				</div>
 
-				<div className="px-6 py-10 leading-loose text-stone-50">
+				<div className="px-6 py-10 leading-loose ">
 
 					<h1 className="font-bold text-4xl uppercase text-pur">Déroulé des séances :</h1>
 
@@ -85,7 +85,7 @@ const Home: NextPage = () => {
 					<p>- Nos amis les animaux peuvent aussi bénéficier d’un bilan.</p>
 				</div>
 
-				<div className="px-6 py-10 leading-loose text-stone-50">
+				<div className="px-6 py-10 leading-loose ">
 
 					<h1 className="font-bold text-4xl uppercase text-pur">En résumé :</h1>
 

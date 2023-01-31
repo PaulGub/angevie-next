@@ -6,7 +6,7 @@ import angelique from '../images/angelique.jpg'
 const Home: NextPage = () => {
 	return (
 		<Layout>
-			<div className="p-12 pt-32 text-stone-50">
+			<div className="p-12 pt-32">
 				<div className="grid lg:grid-cols-4 pb-6">
 
 					<div className="grid">

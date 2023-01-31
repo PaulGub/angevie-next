@@ -84,8 +84,8 @@ body {
     width: 100%;
     min-height: 75px;
     padding: 1rem;
-    background-color: #F1C40F;
-    color: #7b68ee;
+    background-color: #d45e31;
+    color: white;
     z-index: 99999999999;
   }
   
@@ -120,7 +120,7 @@ body {
       height: 100vh;
       padding: 2rem;
       visibility: hidden;
-      background-color: #F1C40F;
+      background-color: #d45e31;
       transition: all .8s ease-out;
     }
   
@@ -128,7 +128,7 @@ body {
       width: 100vw;
       right: 0;
       visibility: visible;
-      color: #7b68ee;
+      color: white;
     }
   
     .navbar_item::after {
@@ -137,7 +137,7 @@ body {
       margin: 0 auto;
       width: 3vw;
       height: 1px;
-      background: #7b68ee;
+      background: white;
     }
   
     .navbar_item:last-child::after {
@@ -169,7 +169,7 @@ body {
       height: 3px;
       position: relative;
       border-radius: 3px;
-      background: #7b68ee;
+      background: white;
       transition: all 0.5s ease-in-out;
     }
   
