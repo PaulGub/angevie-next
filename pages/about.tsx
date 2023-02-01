@@ -1,17 +1,16 @@
 import type { NextPage } from 'next'
 import Layout from "../components/Layout"
 import Image from 'next/image'
-import angelique from '../images/angelique.jpg'
 
 const Home: NextPage = () => {
 	return (
 		<Layout>
-			<div className="p-12 pt-32">
+			<div className="p-12">
 				<div className="grid lg:grid-cols-4 pb-6">
 
 					<div className="grid">
 						<div className=" flex flex-col items-center justify-center">
-							<Image className="rounded-full" src={angelique} width="200" height="200" alt="image de angelique spaziani" />
+							<Image className="rounded-full" src={"/about/angelique.jpg"} width="200" height="200" alt="image de angelique spaziani" />
 						</div>
 					</div>
 

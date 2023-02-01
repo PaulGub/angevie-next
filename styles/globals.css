@@ -80,13 +80,13 @@ body {
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
-    position: fixed;
+    /*position: fixed;*/
     width: 100%;
     min-height: 75px;
     padding: 1rem;
-    background-color: #d45e31;
+    background-color: #7b68ee;
     color: white;
-    z-index: 99999999999;
+    z-index: 9;
   }
   
   .navbar_links {
@@ -120,8 +120,9 @@ body {
       height: 100vh;
       padding: 2rem;
       visibility: hidden;
-      background-color: #d45e31;
+      background-color: #7b68ee;
       transition: all .8s ease-out;
+      z-index: 9;
     }
   
     .shownav .navbar_links {
@@ -152,9 +153,10 @@ body {
   
     .navbar_burger {
       display: block;
-      position: fixed;
+     /* position: fixed;*/
       top: 1rem;
       right: 1rem;
+      z-index: 20;
     }
   
     .navbar_burger::hover {

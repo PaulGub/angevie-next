@@ -34,7 +34,7 @@ export default function Prestations(props: any) {
 
     return (
         <Layout>
-            <div className="pt-28 pb-12">
+            <div className="py-12">
 
                 <h1 className=" flex justify-center items-center font-fancy lg:text-9xl text-7xl ">Prestations</h1>
 

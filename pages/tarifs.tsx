@@ -4,7 +4,7 @@ import Layout from "../components/Layout"
 const Home: NextPage = () => {
 	return (
 		<Layout>
-			<div className="pt-32 pb-12">
+			<div className="py-12">
 
 				<h1 className=" flex justify-center items-center font-fancy lg:text-9xl text-7xl ">Tarifs</h1>
 

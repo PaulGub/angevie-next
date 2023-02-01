@@ -9,7 +9,7 @@ export default function PrestationCard(data: any) {
         <div className={'bg-pur rounded-lg h-full'}>
             <div>
                 <div className={"w-full h-[400px] relative bg-black"}>
-                    <Image className={"rounded-lg"} src={data.data.img} alt={"news"} layout={"fill"}
+                    <Image className={"rounded-lg"} src={data.data.img} alt={"images des prestations"} layout={"fill"}
                         objectFit="contain" objectPosition={"center"} placeholder="blur" blurDataURL={data.data.img} />
                 </div>
 

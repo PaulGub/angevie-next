@@ -1,31 +1,53 @@
 import type { NextPage } from 'next'
 import Layout from "../components/Layout"
 import Image from 'next/image'
-import logo from '../images/logo.svg'
-import phoneLogo from '../images/phoneLogo.png'
+import Link from 'next/link'
+import Typewriter from 'typewriter-effect'
 
 const Home: NextPage = () => {
 	return (
 		<Layout>
 			<div className="lg:text-2xl text-xl">
 
-				<div className="bg-cover bg-[url('../images/phare.jpg')] h-screen min-h-fit min-w-fit  flex flex-col items-center justify-center">
+				<div className="bg-cover bg-[url('/index/background.jpg')] lg:h-screen h-auto min-h-fit min-w-fit  flex flex-col  justify-center">
 
-					<Image src={logo} width="400" height="400" alt="logo ange & vie" />
+					<div className="grid lg:grid-cols-5 grid-cols-1">
 
-					<h1 className=" text-stone-5 pb-2 text-slate-50 text-center">Angelique Spaziani</h1>
+						<div className='lg:p-20 py-7 px-2 col-span-3 text-center lg:text-left'>
 
-					<p className=" text-stone-5 pb-2 text-slate-50 text-center">Praticienne holistique</p>
+							<p className="text-pur">Bienvenue sur Ange & Vie, je suis </p>
 
-					<p className=" text-stone-5 pb-2 text-slate-50 text-center">Prochainement vous pourrez venir à mon cabinet</p>
+							<h1 className=" text-stone-5 pb-2 text-7xl ">Angelique Spaziani</h1>
 
-					<p className=" text-stone-5 pb-2 text-slate-50 text-center">Je me déplace à votre domicile</p>
+							<h1 className="text-4xl">
+								<Typewriter
+									options={{
+										strings: ['Praticienne holistique', 'Energeticienne', 'Guerisseuse'],
+										autoStart: true,
+										loop: true,
+									}}
+								/>
+							</h1>
 
-					<p className=" text-stone-5 pb-2 text-slate-50 text-center">Je peux également travailler à distance</p>
 
-					<div className="flex">
-						<Image src={phoneLogo} width="20" height="17" alt="image telephone" />
-						<p className=" text-stone-5 text-slate-50 pl-2">07 67 05 57 90</p>
+							<p className=" text-stone-5 pb-4 pt-5">Actuellement, je viens à votre domicile ou je travaille à distance. Prochainement, vous pourrez venir à mon cabinet.</p>
+
+							<Link href="tel:+33767055790">
+								<button type="button" className="transition duration-1000 ease-in-out  hover:scale-105  text-white  bg-pur hover:bg-white hover:text-pur hover:border-pur border focus:ring-4 focus:outline-none focus:ring-pur/50 font-medium rounded-full  px-5 py-2.5 text-center inline-flex items-center dark:focus:ring-[#3b5998]/55 mr-2 mb-2">
+									<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
+										<path strokeLinecap="round" strokeLinejoin="round" d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 002.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 01-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 00-1.091-.852H4.5A2.25 2.25 0 002.25 4.5v2.25z" />
+									</svg>
+
+									07 67 05 57 90
+								</button>
+							</Link>
+
+						</div>
+
+						<div className='col-span-2 lg:justify-start justify-center flex py-7 px-2'>
+							<Image className="rounded-full" src={"/index/angelique.png"} width="400" height="400" alt="image de angelique spaziani" />
+						</div>
+
 					</div>
 
 				</div>
