@@ -6,7 +6,7 @@ const Home: NextPage = () => {
 		<Layout>
 			<div className="py-12">
 
-				<h1 className=" flex justify-center items-center font-fancy lg:text-9xl text-7xl ">Tarifs</h1>
+				<h1 className=" flex justify-center items-center lg:text-7xl text-5xl pb-5">Tarifs</h1>
 
 				<div className="grid lg:grid-cols-2 gap-10 p-4">
 

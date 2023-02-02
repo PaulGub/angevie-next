@@ -36,7 +36,7 @@ export default function Prestations(props: any) {
         <Layout>
             <div className="py-12">
 
-                <h1 className=" flex justify-center items-center font-fancy lg:text-9xl text-7xl ">Prestations</h1>
+                <h1 className=" flex justify-center items-center lg:text-7xl text-5xl pb-5">Prestations</h1>
 
                 <div className="grid lg:grid-cols-3 grid-cols-1 gap-10 p-4">
                     {prestations.map((news: any, index: number) => {
