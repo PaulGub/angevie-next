@@ -25,7 +25,7 @@ export default function Footer(props: FooterProps) {
 
                     <div className="grid">
                         <div className="flex flex-col items-center justify-center">
-                            <Image placeholder="blur" blurDataURL={"/logo.svg"} src={"/logo.svg"} width="200" height="200" alt="logo ange & vie" />
+                            <Image src={"/logo.png"} width="200" height="200" alt="logo ange & vie" />
                         </div>
                     </div>
 
