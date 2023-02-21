@@ -16,7 +16,7 @@ export default function Layout(props: LayoutProps) {
         <>
 
             <Head>
-                <link rel="icon" href="/favicon.svg" />
+                <link rel="icon" href="/favicon.png" />
                 <link rel="preconnect" href="https://fonts.googleapis.com" />
                 <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="" />
                 <title>Ange & Vie</title>
