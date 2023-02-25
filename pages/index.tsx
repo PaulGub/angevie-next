@@ -23,9 +23,11 @@ const Home: NextPage = () => {
                             <h1 className="text-4xl">
                                 <Typewriter
                                     options={{
-                                        strings: ['Praticienne holistique', 'Energeticienne', 'Guerisseuse'],
+                                        strings: ['Praticienne holistique et Energeticienne'],
                                         autoStart: true,
                                         loop: true,
+                                        deleteSpeed: 9999999999999999999999999999999999,
+                                        cursor: ""
                                     }}
                                 />
                             </h1>
@@ -60,7 +62,7 @@ const Home: NextPage = () => {
 
                 <div className="px-6 py-32 leading-loose">
 
-                    <h1 className="font-bold text-4xl uppercase text-pur text-center pb-10 ">Pour quelles raisons venir voir une
+                    <h1 className="font-bold text-4xl text-pur text-center pb-10 ">Pour quelles raisons venir voir une
                         Energeticienne ?</h1>
 
                     <div className={"grid lg:grid-cols-5 grid-cols-1 gap-10"}>
@@ -208,7 +210,7 @@ const Home: NextPage = () => {
 
                 <div className="px-6 py-32 bg-pur text-stone-50 leading-loose">
 
-                    <h1 className="font-bold text-4xl uppercase ">Les bienfaits le plus souvent ressenti après un bilan
+                    <h1 className="font-bold text-4xl underline pb-4">Les bienfaits le plus souvent ressenti après un bilan
                         énergétique  </h1>
 
                     <p>- Harmonisation de votre énergie</p>
@@ -222,7 +224,7 @@ const Home: NextPage = () => {
 
                 <div className="px-6 py-32  leading-loose">
 
-                    <h1 className="font-bold text-4xl uppercase text-pur text-center pb-10">A qui s’adresse un bilan énergétique (Energeticienne)
+                    <h1 className="font-bold text-4xl text-pur text-center pb-10">A qui s’adresse un bilan énergétique (Energeticienne)
                         ? </h1>
 
                     <div className={"grid lg:grid-cols-4 grid-cols-1 gap-10"}>
@@ -266,8 +268,8 @@ const Home: NextPage = () => {
 
 
                 <div className="px-6 py-32 leading-loose bg-pur text-stone-50">
-
-                    <h1 className="font-bold text-4xl uppercase">Déroulé des séances</h1>
+ 
+                    <h1 className="font-bold text-4xl underline pb-4">Déroulé des séances</h1>
 
                     <p>- Accueil, écoute et recueil de vos besoins. Lors du premier bilan je vous propose de répondre à
                         un questionnaire afin de faire un point.</p>
@@ -286,7 +288,7 @@ const Home: NextPage = () => {
 
                 <div className="px-6 py-32 leading-loose text-center ">
 
-                    <h1 className="font-bold text-4xl uppercase text-pur pb-10">En résumé</h1>
+                    <h1 className="font-bold text-4xl text-pur pb-10">En résumé</h1>
 
                     <p>Le <b>bilan énergétique</b> que je réalise vous permettra de trouver un mieux-être général, tant
                         sur le plan physique, moral que mental. </p>
