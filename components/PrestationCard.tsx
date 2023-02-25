@@ -8,7 +8,7 @@ export default function PrestationCard(data: any) {
 
         <div className={'bg-pur rounded-lg h-full'}>
             <div>
-                <div className={"absolute pl-2 pt-2 z-30 "}>
+                <div className={"absolute pl-2 pt-2 z-[6] "}>
                     <p className={"bg-white  p-2 rounded-lg text-center"}>
                         {data.data.type.map((data: any, index: number) => {
 
