@@ -1,10 +1,5 @@
-## ANGE & VIE NEXT JS
+# angevie-next
 
-Site utilisant [Next.js](https://nextjs.org/) et Tailwind CSS
+### Projet réalisé en autonomie
 
----
-
-Pour démarrer le serveur
-```
-npm run dev
-yarn dev
+Site Web NextJS, Tailwind CSS
