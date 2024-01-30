@@ -13,7 +13,7 @@ const Home = () => {
                     <a href="mailto:AngeEtVie@laposte.net" className="text-blue-500">AngeEtVie@laposte.net</a> – <a href="tel:0767055790" className="text-blue-500">07 67 05 57 90</a>
                 </p>
                 <p>
-                    Actualité : week-end à Brocéliande du 05 septembre au 07 avril 2024.{' '}
+                    Actualité : week-end à Brocéliande du 05 au 07 avril 2024.{' '}
                     <a target="blank" href="https://www.facebook.com/profile.php?id=100054545855781" className="text-blue-500">
                         Cliquez sur le lien pour plus d’informations.
                     </a>
